@@ -1,0 +1,365 @@
+Group	Accession	Title	Source name	3T3-L1	Adipose_brown	Adipose_white	Adrenal_gland	Amygdala	Baf3	B-cells_marginal_zone	Bladder	Bone	Bone_marrow	C2C12	C3H_10T1_2	Cerebellum	Cerebral_cortex	Cerebral_cortex_prefrontal	Ciliary_bodies	Common_myeloid_progenitor	Cornea	Characteristics	Dendritic_cells_myeloid_CD8a-	Dorsal_root_ganglia	Dorsal_striatum	Embryonic_stem_line_Bruce4_p13	Embryonic_stem_line_V26_2_p16	Epidermis	Eyecup	Follicular_B-cells	Granulo_mono_progenitor	Heart	Hippocampus	Hypothalamus	Intestine_large	Intestine_small	Iris	Kidney	Lacrimal_gland	Lens	Liver	Lung	Lymph_nodes	Macrophage_bone_marrow_0hr	Macrophage_bone_marrow_24h_LPS	Macrophage_bone_marrow_2hr_LPS	Macrophage_bone_marrow_6hr_LPS	Macrophage_peri_LPS_thio_0hrs	Macrophage_peri_LPS_thio_1hrs	Macrophage_peri_LPS_thio_7hrs	Mammary_gland__lact	Mammary_gland_non-lactating	Mast_cells	Mast_cells_IgE	Mega_erythrocyte_progenitor	Microglia	MIMCD-3	Min6	Neuro2a	Nih_3T3	NK_cells	Nucleus_accumbens	Olfactory_bulb	Osteoblast_day14	Osteoblast_day21	Osteoblast_day5	Osteoclasts	Ovary	Pancreas	Pituitary	Placenta	Prostate	RAW_264_7	Retina	Retinal_pigment_epithelium	Salivary_gland	Skeletal_muscle	Spinal_cord	Spleen	Stem_cells__HSC	Stomach	Testis	Umbilical_cord	Uterus
+-
+GSM258609	3T3-L1_4MJW06120821	3T3-L1																																																																																	
+-
+GSM258610	3T3-L1_4MJW06120822	3T3-L1																																																																																	
+-
+GSM258611	adipose_brown_4MJW06120815	adipose_brown																																																																																	
+-
+GSM258612	adipose_brown_4MJW06120816	adipose_brown																																																																																	
+-
+GSM258613	adipose_white_4MJW06120803	adipose_white																																																																																	
+-
+GSM258614	adipose_white_4MJW06120804	adipose_white																																																																																	
+-
+GSM258615	adrenal_gland_4MJW061208117	adrenal_gland																																																																																	
+-
+GSM258616	adrenal_gland_4MJW061208118	adrenal_gland																																																																																	
+-
+GSM258617	amygdala_4MJW061208119	amygdala																																																																																	
+-
+GSM258618	amygdala_4MJW061208120	amygdala																																																																																	
+-
+GSM258619	Baf3_4MJW06120823	Baf3																																																																																	
+-
+GSM258620	Baf3_4MJW06120824	Baf3																																																																																	
+-
+GSM258621	B-cells_marginal_zone_4MJW06120889	B-cells_marginal_zone																																																																																	
+-
+GSM258622	B-cells_marginal_zone_4MJW06120890	B-cells_marginal_zone																																																																																	
+-
+GSM258623	bladder_4MJW061208121	bladder																																																																																	
+-
+GSM258624	bladder_4MJW061208122	bladder																																																																																	
+-
+GSM258625	bone_4MJW06120811	bone																																																																																	
+-
+GSM258626	bone_4MJW06120812	bone																																																																																	
+-
+GSM258627	bone_marrow_4MJW06120841	bone_marrow																																																																																	
+-
+GSM258628	bone_marrow_4MJW06120842	bone_marrow																																																																																	
+-
+GSM258629	C2C12_4MJW06120825	C2C12																																																																																	
+-
+GSM258630	C2C12_4MJW06120826	C2C12																																																																																	
+-
+GSM258631	C3H_10T1_2_4MJW06120827	C3H_10T1_2																																																																																	
+-
+GSM258632	C3H_10T1_2_4MJW06120828	C3H_10T1_2																																																																																	
+-
+GSM258633	cerebellum_4MJW061208123	cerebellum																																																																																	
+-
+GSM258634	cerebellum_4MJW061208124	cerebellum																																																																																	
+-
+GSM258635	cerebral_cortex_4MJW061208125	cerebral_cortex																																																																																	
+-
+GSM258636	cerebral_cortex_4MJW061208126	cerebral_cortex																																																																																	
+-
+GSM258637	cerebral_cortex_prefrontal_4MJW061208177	cerebral_cortex_prefrontal																																																																																	
+-
+GSM258638	cerebral_cortex_prefrontal_4MJW061208178	cerebral_cortex_prefrontal																																																																																	
+-
+GSM258639	ciliary_bodies_4MJW06120897	ciliary_bodies																																																																																	
+-
+GSM258640	ciliary_bodies_4MJW06120898	ciliary_bodies																																																																																	
+-
+GSM258641	common_myeloid_progenitor_4MJW06120873	common_myeloid_progenitor																																																																																	
+-
+GSM258642	common_myeloid_progenitor_4MJW06120874	common_myeloid_progenitor																																																																																	
+-
+GSM258643	cornea_4MJW061208100	cornea																																																																																	
+-
+GSM258644	cornea_4MJW06120899	cornea																																																																																	
+-
+GSM258645	dendritic_cells_lymphoid_CD8a+_4MJW061208107	dendritic_cells_lymphoid_CD8a+																			dendritic_cells_lymphoid_CD8a+
+-
+GSM258646	dendritic_cells_lymphoid_CD8a+_4MJW061208108	dendritic_cells_lymphoid_CD8a+																			dendritic_cells_lymphoid_CD8a+
+-
+GSM258647	dendritic_cells_myeloid_CD8a-_4MJW061208111	dendritic_cells_myeloid_CD8a-																																																																																	
+-
+GSM258648	dendritic_cells_myeloid_CD8a-_4MJW061208112	dendritic_cells_myeloid_CD8a-																																																																																	
+-
+GSM258649	dendritic_plasmacytoid_B220+_4MJW061208109	dendritic_plasmacytoid_B220+																			dendritic_plasmacytoid_B220+
+-
+GSM258650	dendritic_plasmacytoid_B220+_4MJW061208110	dendritic_plasmacytoid_B220+																			dendritic_plasmacytoid_B220+
+-
+GSM258651	dorsal_root_ganglia_4MJW061208127	dorsal_root_ganglia																																																																																	
+-
+GSM258652	dorsal_root_ganglia_4MJW061208128	dorsal_root_ganglia																																																																																	
+-
+GSM258653	dorsal_striatum_4MJW061208129	dorsal_striatum																																																																																	
+-
+GSM258654	dorsal_striatum_4MJW061208130	dorsal_striatum																																																																																	
+-
+GSM258655	embryonic_stem_line_Bruce4_p13_4MJW06120817	embryonic_stem_line_Bruce4_p13																																																																																	
+-
+GSM258656	embryonic_stem_line_Bruce4_p13_4MJW06120818	embryonic_stem_line_Bruce4_p13																																																																																	
+-
+GSM258657	embryonic_stem_line_V26_2_p16_4MJW06120819	embryonic_stem_line_V26_2_p16																																																																																	
+-
+GSM258658	embryonic_stem_line_V26_2_p16_4MJW06120820	embryonic_stem_line_V26_2_p16																																																																																	
+-
+GSM258659	epidermis_4MJW06120809	epidermis																																																																																	
+-
+GSM258660	epidermis_4MJW06120810	epidermis																																																																																	
+-
+GSM258661	eyecup_4MJW061208103	eyecup																																																																																	
+-
+GSM258662	eyecup_4MJW061208104	eyecup																																																																																	
+-
+GSM258663	follicular_B-cells_4MJW06120849	follicular_B-cells																																																																																	
+-
+GSM258664	follicular_B-cells_4MJW06120850	follicular_B-cells																																																																																	
+-
+GSM258665	granulo_mono_progenitor_4MJW06120875	granulo_mono_progenitor																																																																																	
+-
+GSM258666	granulo_mono_progenitor_4MJW06120876	granulo_mono_progenitor																																																																																	
+-
+GSM258667	granulocytes_mac1+gr1+_4MJW06120869	granulocytes_mac1+gr1+																			granulocytes_mac1+gr1+
+-
+GSM258668	granulocytes_mac1+gr1+_4MJW06120870	granulocytes_mac1+gr1+																			granulocytes_mac1+gr1+
+-
+GSM258669	heart_4MJW061208131	heart																																																																																	
+-
+GSM258670	heart_4MJW061208132	heart																																																																																	
+-
+GSM258671	hippocampus_4MJW06120801	hippocampus																																																																																	
+-
+GSM258672	hippocampus_4MJW06120802	hippocampus																																																																																	
+-
+GSM258673	hypothalamus_4MJW061208133	hypothalamus																																																																																	
+-
+GSM258674	hypothalamus_4MJW061208134	hypothalamus																																																																																	
+-
+GSM258675	intestine_large_4MJW061208137	intestine_large																																																																																	
+-
+GSM258676	intestine_large_4MJW061208138	intestine_large																																																																																	
+-
+GSM258677	intestine_small_4MJW061208157	intestine_small																																																																																	
+-
+GSM258678	intestine_small_4MJW061208158	intestine_small																																																																																	
+-
+GSM258679	iris_4MJW061208105	iris																																																																																	
+-
+GSM258680	iris_4MJW061208106	iris																																																																																	
+-
+GSM258681	kidney_4MJW061208135	kidney																																																																																	
+-
+GSM258682	kidney_4MJW061208136	kidney																																																																																	
+-
+GSM258683	lacrimal_gland_4MJW061208179	lacrimal_gland																																																																																	
+-
+GSM258684	lacrimal_gland_4MJW061208180	lacrimal_gland																																																																																	
+-
+GSM258685	lens_4MJW061208101	lens																																																																																	
+-
+GSM258686	lens_4MJW061208102	lens																																																																																	
+-
+GSM258687	liver_4MJW061208139	liver																																																																																	
+-
+GSM258688	liver_4MJW061208140	liver																																																																																	
+-
+GSM258689	lung_4MJW061208141	lung																																																																																	
+-
+GSM258690	lung_4MJW061208142	lung																																																																																	
+-
+GSM258691	lymph_nodes_4MJW06120839	lymph_nodes																																																																																	
+-
+GSM258692	lymph_nodes_4MJW06120840	lymph_nodes																																																																																	
+-
+GSM258693	macrophage_bone_marrow_0hr_4MJW06120853	macrophage_bone_marrow_0hr																																																																																	
+-
+GSM258694	macrophage_bone_marrow_0hr_4MJW06120854	macrophage_bone_marrow_0hr																																																																																	
+-
+GSM258695	macrophage_bone_marrow_24h_LPS_4MJW06120859	macrophage_bone_marrow_24h_LPS																																																																																	
+-
+GSM258696	macrophage_bone_marrow_24h_LPS_4MJW06120860	macrophage_bone_marrow_24h_LPS																																																																																	
+-
+GSM258697	macrophage_bone_marrow_2hr_LPS_4MJW06120855	macrophage_bone_marrow_2hr_LPS																																																																																	
+-
+GSM258698	macrophage_bone_marrow_2hr_LPS_4MJW06120856	macrophage_bone_marrow_2hr_LPS																																																																																	
+-
+GSM258699	macrophage_bone_marrow_6hr_LPS_4MJW06120857	macrophage_bone_marrow_6hr_LPS																																																																																	
+-
+GSM258700	macrophage_bone_marrow_6hr_LPS_4MJW06120858	macrophage_bone_marrow_6hr_LPS																																																																																	
+-
+GSM258701	macrophage_peri_LPS_thio_0hrs_4MJW06120843	macrophage_peri_LPS_thio_0hrs																																																																																	
+-
+GSM258702	macrophage_peri_LPS_thio_0hrs_4MJW06120844	macrophage_peri_LPS_thio_0hrs																																																																																	
+-
+GSM258703	macrophage_peri_LPS_thio_1hrs_4MJW06120845	macrophage_peri_LPS_thio_1hrs																																																																																	
+-
+GSM258704	macrophage_peri_LPS_thio_1hrs_4MJW06120846	macrophage_peri_LPS_thio_1hrs																																																																																	
+-
+GSM258705	macrophage_peri_LPS_thio_7hrs_4MJW06120847	macrophage_peri_LPS_thio_7hrs																																																																																	
+-
+GSM258706	macrophage_peri_LPS_thio_7hrs_4MJW06120848	macrophage_peri_LPS_thio_7hrs																																																																																	
+-
+GSM258707	mammary_gland__lact_4MJW061208187	mammary_gland__lact																																																																																	
+-
+GSM258708	mammary_gland__lact_4MJW061208188	mammary_gland__lact																																																																																	
+-
+GSM258709	mammary_gland_non-lactating_4MJW061208143	mammary_gland_non-lactating																																																																																	
+-
+GSM258710	mammary_gland_non-lactating_4MJW061208144	mammary_gland_non-lactating																																																																																	
+-
+GSM258711	mast_cells_4MJW06120851	mast_cells																																																																																	
+-
+GSM258712	mast_cells_4MJW06120852	mast_cells																																																																																	
+-
+GSM258713	mast_cells_IgE_4MJW06120883	mast_cells_IgE																																																																																	
+-
+GSM258714	mast_cells_IgE_4MJW06120884	mast_cells_IgE																																																																																	
+-
+GSM258715	mast_cells_IgE+antigen_1hr_4MJW06120885	mast_cells_IgE+antigen_1hr																			mast_cells_IgE+antigen_1hr
+-
+GSM258716	mast_cells_IgE+antigen_1hr_4MJW06120886	mast_cells_IgE+antigen_1hr																			mast_cells_IgE+antigen_1hr
+-
+GSM258717	mast_cells_IgE+antigen_6hr_4MJW06120887	mast_cells_IgE+antigen_6hr																			mast_cells_IgE+antigen_6hr
+-
+GSM258718	mast_cells_IgE+antigen_6hr_4MJW06120888	mast_cells_IgE+antigen_6hr																			mast_cells_IgE+antigen_6hr
+-
+GSM258719	mega_erythrocyte_progenitor_4MJW06120879	mega_erythrocyte_progenitor																																																																																	
+-
+GSM258720	mega_erythrocyte_progenitor_4MJW06120880	mega_erythrocyte_progenitor																																																																																	
+-
+GSM258721	microglia_4MJW061208183	microglia																																																																																	
+-
+GSM258722	microglia_4MJW061208184	microglia																																																																																	
+-
+GSM258723	mIMCD-3_4MJW06120831	mIMCD-3																																																																																	
+-
+GSM258724	mIMCD-3_4MJW06120832	mIMCD-3																																																																																	
+-
+GSM258725	min6_4MJW06120829	min6																																																																																	
+-
+GSM258726	min6_4MJW06120830	min6																																																																																	
+-
+GSM258727	neuro2a_4MJW06120833	neuro2a																																																																																	
+-
+GSM258728	neuro2a_4MJW06120834	neuro2a																																																																																	
+-
+GSM258729	nih_3T3_4MJW06120835	nih_3T3																																																																																	
+-
+GSM258730	nih_3T3_4MJW06120836	nih_3T3																																																																																	
+-
+GSM258731	NK_cells_4MJW06120881	NK_cells																																																																																	
+-
+GSM258732	NK_cells_4MJW06120882	NK_cells																																																																																	
+-
+GSM258733	nucleus_accumbens_4MJW061208145	nucleus_accumbens																																																																																	
+-
+GSM258734	nucleus_accumbens_4MJW061208146	nucleus_accumbens																																																																																	
+-
+GSM258735	olfactory_bulb_4MJW061208147	olfactory_bulb																																																																																	
+-
+GSM258736	olfactory_bulb_4MJW061208148	olfactory_bulb																																																																																	
+-
+GSM258737	osteoblast_day14_4MJW06120865	osteoblast_day14																																																																																	
+-
+GSM258738	osteoblast_day14_4MJW06120866	osteoblast_day14																																																																																	
+-
+GSM258739	osteoblast_day21_4MJW06120867	osteoblast_day21																																																																																	
+-
+GSM258740	osteoblast_day21_4MJW06120868	osteoblast_day21																																																																																	
+-
+GSM258741	osteoblast_day5_4MJW06120863	osteoblast_day5																																																																																	
+-
+GSM258742	osteoblast_day5_4MJW06120864	osteoblast_day5																																																																																	
+-
+GSM258743	osteoclasts_4MJW06120861	osteoclasts																																																																																	
+-
+GSM258744	osteoclasts_4MJW06120862	osteoclasts																																																																																	
+-
+GSM258745	ovary_4MJW061208149	ovary																																																																																	
+-
+GSM258746	ovary_4MJW061208150	ovary																																																																																	
+-
+GSM258747	pancreas_4MJW06120813	pancreas																																																																																	
+-
+GSM258748	pancreas_4MJW06120814	pancreas																																																																																	
+-
+GSM258749	pituitary_4MJW061208151	pituitary																																																																																	
+-
+GSM258750	pituitary_4MJW061208152	pituitary																																																																																	
+-
+GSM258751	placenta_4MJW061208189	placenta																																																																																	
+-
+GSM258752	placenta_4MJW061208190	placenta																																																																																	
+-
+GSM258753	prostate_4MJW061208153	prostate																																																																																	
+-
+GSM258754	prostate_4MJW061208154	prostate																																																																																	
+-
+GSM258755	RAW_264_7_4MJW06120837	RAW_264_7																																																																																	
+-
+GSM258756	RAW_264_7_4MJW06120838	RAW_264_7																																																																																	
+-
+GSM258757	retina_4MJW06120895	retina																																																																																	
+-
+GSM258758	retina_4MJW06120896	retina																																																																																	
+-
+GSM258759	retinal_pigment_epithelium_4MJW06120893	retinal_pigment_epithelium																																																																																	
+-
+GSM258760	retinal_pigment_epithelium_4MJW06120894	retinal_pigment_epithelium																																																																																	
+-
+GSM258761	salivary_gland_4MJW061208181	salivary_gland																																																																																	
+-
+GSM258762	salivary_gland_4MJW061208182	salivary_gland																																																																																	
+-
+GSM258763	skeletal_muscle_4MJW061208155	skeletal_muscle																																																																																	
+-
+GSM258764	skeletal_muscle_4MJW061208156	skeletal_muscle																																																																																	
+-
+GSM258765	spinal_cord_4MJW061208159	spinal_cord																																																																																	
+-
+GSM258766	spinal_cord_4MJW061208160	spinal_cord																																																																																	
+-
+GSM258767	spleen_4MJW061208161	spleen																																																																																	
+-
+GSM258768	spleen_4MJW061208162	spleen																																																																																	
+-
+GSM258769	stem_cells__HSC_4MJW06120877	stem_cells__HSC																																																																																	
+-
+GSM258770	stem_cells__HSC_4MJW06120878	stem_cells__HSC																																																																																	
+-
+GSM258771	stomach_4MJW061208163	stomach																																																																																	
+-
+GSM258772	stomach_4MJW061208164	stomach																																																																																	
+-
+GSM258773	T-cells_CD4+_4MJW061208113	T-cells_CD4+																			T-cells_CD4+
+-
+GSM258774	T-cells_CD4+_4MJW061208114	T-cells_CD4+																			T-cells_CD4+
+-
+GSM258775	T-cells_CD8+_4MJW061208115	T-cells_CD8+																			T-cells_CD8+
+-
+GSM258776	T-cells_CD8+_4MJW061208116	T-cells_CD8+																			T-cells_CD8+
+-
+GSM258777	T-cells_foxP3+_4MJW06120891	T-cells_foxP3+																			T-cells_foxP3+
+-
+GSM258778	T-cells_foxP3+_4MJW06120892	T-cells_foxP3+																			T-cells_foxP3+
+-
+GSM258779	testis_4MJW061208165	testis																																																																																	
+-
+GSM258780	testis_4MJW061208166	testis																																																																																	
+-
+GSM258781	thymocyte_DP_CD4+CD8+_4MJW061208171	thymocyte_DP_CD4+CD8+																			thymocyte_DP_CD4+CD8+
+-
+GSM258782	thymocyte_DP_CD4+CD8+_4MJW061208172	thymocyte_DP_CD4+CD8+																			thymocyte_DP_CD4+CD8+
+-
+GSM258783	thymocyte_SP_CD4+_4MJW061208173	thymocyte_SP_CD4+																			thymocyte_SP_CD4+
+-
+GSM258784	thymocyte_SP_CD4+_4MJW061208174	thymocyte_SP_CD4+																			thymocyte_SP_CD4+
+-
+GSM258785	thymocyte_SP_CD8+_4MJW061208175	thymocyte_SP_CD8+																			thymocyte_SP_CD8+
+-
+GSM258786	thymocyte_SP_CD8+_4MJW061208176	thymocyte_SP_CD8+																			thymocyte_SP_CD8+
+-
+GSM258787	umbilical_cord_4MJW061208185	umbilical_cord																																																																																	
+-
+GSM258788	umbilical_cord_4MJW061208186	umbilical_cord																																																																																	
+-
+GSM258789	uterus_4MJW061208169	uterus																																																																																	
+-
+GSM258790	uterus_4MJW061208170	uterus
