@@ -58,7 +58,7 @@ for(var i = 0; i < arr.length; i++){
 	}
 
 	if(arr[i].indexOf("258641") > -1 || arr[i].indexOf("258642") > -1){
-		console.log(i);
+		//console.log(i);
 
 	}
 
@@ -95,14 +95,14 @@ var fs = require('fs')
 
 var lineNr = 0;
 
-var s = fs.createReadStream('GSE10246.txt') //test.txt GSE10246.txt
+var s = fs.createReadStream('GSE10246.largefile') //test.txt GSE10246.txt
     .pipe(es.split())
     .pipe(es.mapSync(function(line){
 
         // pause the readstream
         s.pause();
 
-        lineNr += 1;
+        
 
         // process line here and call s.resume() when rdy
         // function below was for logging memory usage
@@ -117,6 +117,21 @@ var s = fs.createReadStream('GSE10246.txt') //test.txt GSE10246.txt
 
 			var largest0 = Math.max.apply( Math, arr );
 
+			var cnt = 0;
+			var L = arr.length;
+			var X = 5;
+
+			for(var j = 0; j < L; j++){
+				if(largest0 > (parseFloat(arr[j])+X) ){
+					cnt++;
+				}
+			}
+
+			if(cnt == (L - 2)){
+				console.log(affy); //get all affy probes where one tissue is 2^X higher expression than all others
+				//console.log('lineNr' + lineNr);
+				lineNr += 1;
+			}
 			//console.log('largest: ' + largest);
 			//console.log('largest0: ' + largest0);
 
@@ -162,7 +177,7 @@ var s = fs.createReadStream('GSE10246.txt') //test.txt GSE10246.txt
 			 }
 
 			 if(index == 32 || index == 33){  //osteoblast day 5
-			 	console.log(affy);
+			 	//console.log(affy);
 			 }
 
         //logMemoryUsage(lineNr);
