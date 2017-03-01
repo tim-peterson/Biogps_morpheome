@@ -6,86 +6,19 @@ var samples = "GSM258609.CEL.gz		GSM258610.CEL.gz	GSM258611.CEL.gz	GSM258612.CEL
 
 var arr = samples.trim().split(/\s+/g);
 
-//console.log(arr.length);
-
-for(var i = 0; i < arr.length; i++){
-	if(arr[i].indexOf("258739") > -1 || arr[i].indexOf("258740") > -1){ //osteoblast day 21
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258625") > -1 || arr[i].indexOf("258626") > -1){
-		//console.log(i);
-
-	}
-
-
-	if(arr[i].indexOf("258743") > -1 || arr[i].indexOf("258744") > -1){
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258681") > -1 || arr[i].indexOf("258682") > -1){
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258611") > -1 || arr[i].indexOf("258612") > -1){
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258613") > -1 || arr[i].indexOf("258614") > -1){
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258609") > -1 || arr[i].indexOf("258610") > -1){
-		//console.log(i);
-
-	}
-
-
-	if(arr[i].indexOf("258677") > -1 || arr[i].indexOf("258678") > -1){
-		//console.log(i);
-
-	}
-
-
-	if(arr[i].indexOf("258693") > -1 || arr[i].indexOf("258694") > -1){
-		//console.log(i);
-
-	}
-
-	if(arr[i].indexOf("258641") > -1 || arr[i].indexOf("258642") > -1){
-		//console.log(i);
-
-	}
-
-
-	//if(i==103) console.log('103: ' + arr[i]);
-	//if(i==124) console.log('124: ' + arr[i]);
-
-}
-
-//exit;
-
 Array.max = function( array ){
     return Math.max.apply( Math, array );
 };
 
-function mymax(a)
-{
-    var m = -Infinity, i = 0, n = a.length;
-
-    for (; i != n; ++i) {
-        if (a[i] > m) {
-            m = a[i];
-        }
-    }
-
-    return m;
+function isEven(n) {
+   return n % 2 == 0;
 }
+
+function isOdd(n) {
+   return Math.abs(n % 2) == 1;
+}
+
+
 
 
 var fs = require('fs')
@@ -95,6 +28,21 @@ var fs = require('fs')
 
 var lineNr = 0;
 
+
+
+function saveLog (command) {
+    var file = '3x_or_greater_than_other_cell_v2.csv';
+    //var datetime = '[' + getDateTime() + '] ';
+    var text = command + '\r\n';
+
+    fs.appendFile(file, text, function (err) {
+        if (err) return console.log(err);
+        //console.log('successfully appended "' + text + '"');
+    });
+}
+
+
+
 var s = fs.createReadStream('GSE10246.largefile') //test.txt GSE10246.txt
     .pipe(es.split())
     .pipe(es.mapSync(function(line){
@@ -102,10 +50,6 @@ var s = fs.createReadStream('GSE10246.largefile') //test.txt GSE10246.txt
         // pause the readstream
         s.pause();
 
-        
-
-        // process line here and call s.resume() when rdy
-        // function below was for logging memory usage
 
 			var arr = line.trim().split(/\s+/g);
 
@@ -117,93 +61,82 @@ var s = fs.createReadStream('GSE10246.largefile') //test.txt GSE10246.txt
 
 			var largest0 = Math.max.apply( Math, arr );
 
-			var cnt = 0;
+			var index = arr.indexOf(largest0.toString());
+
+
+			/*if(isOdd(index)){
+				var second_largest0 = arr[index+1];
+			}
+			else{
+				var second_largest0 = arr[index-1];
+			}*/
+
+			var cnt = 1;
 			var L = arr.length;
-			var X = 3;
+			var X = 4;
+
+			var avg_arr = [];
 
 			for(var j = 0; j < L; j++){
-				if(largest0 > (parseFloat(arr[j])+X) ){
-					cnt++;
+				if(isEven(j)) avg_arr.push((parseFloat(arr[j]) + parseFloat(arr[j+1]))/2);
+			}
+
+
+			var avg_largest = Math.max.apply( Math, avg_arr );
+
+			//var index0 = avg_arr.indexOf(largest0.toString());
+
+			var K = avg_arr.length;
+
+
+
+			// if(affy == '1450179_at'){
+
+			 	//console.log(avg_arr);
+
+				for(var j = 0; j < K; j++){
+					if(avg_largest < (avg_arr[j]+X) ){
+						cnt++;
+
+						//console.log(j + ' ');
+						//console.log(avg_arr[j]);
+						//console.log('cnt' + cnt);
+					}
+
 				}
-			}
-
-			if(cnt == (L - 2)){
-				//console.log('it\'s larger than all others')
-				//console.log(affy); //get all affy probes where one tissue is 2^X higher expression than all others
-				//console.log('lineNr' + lineNr);
-				lineNr += 1;
-			}
-			//console.log('largest: ' + largest);
-			//console.log('largest0: ' + largest0);
-
-			 var index = arr.indexOf(largest0.toString());
-			// console.log("index: " + index);
 
 
-			 if(affy == '1450179_at'){
 
-			 	console.log(affy);
+				//if(affy.indexOf("1432453") > -1) console.log(affy+ 'true!' + cnt);
+			 	if(cnt == 2){
+			 		saveLog(affy);
+			 		//console.log(affy);
+			 	} 
 
-			 	console.log('cnt: '+ cnt + ' ');
-			 	console.log('- L: '+L+ ' -');
+			 	/*console.log('avg_largest');
+			 	console.log(avg_largest);
+
+
+			 	console.log('- K: '+K+ ' -');
+			 	console.log('cnt: '+ cnt + ' ');*/
+			 	//console.log('- L: '+L+ ' -');
 			 	
 
-			 	console.log(line);
+			 	//console.log(line);
 
-			 	console.log('-');
+			 	//console.log('-');
 
-			 	console.log(index);
+			 	//console.log(index);
 
-			 	console.log('-');
+			 	//console.log('-');
 
-			 	console.log(arr[index]);
-
-
+			 	//console.log(arr[index]);
 
 
-			 } 
-
-			 //console.log(arr);
-			 if(index == 130 || index == 131){ //osteoblast day 21
-			 	//console.log(affy);
-			 }
-
-			 if(index == 16 || index == 17){  //bone
-			 	//console.log(affy);
-			 }
-
-			 if(index == 134 || index == 135){  //osteoclast
-			 	//console.log(affy);
-			 }
-
-			 if(index == 72 || index == 73){  //kidney
-			 	//console.log(affy);
-			 }
 
 
-			 if(index == 2 || index == 3){  //adipose brown
-			 	//console.log(affy);
-			 }
+			 //} 
 
-			 if(index == 4 || index == 5){  //adipose white
-			 	//console.log(affy);
-			 }
-
-			 if(index == 0 || index == 1){  //3t3-L1
-			 	//console.log(affy);
-			 }
-
-			 if(index == 68 || index == 69){  //small intetine
-			 	//console.log(affy);
-			 }
-
-			 if(index == 84 || index == 85){  //macrophage_bone_marrow
-			 	//console.log(affy);
-			 }
-
-			 if(index == 32 || index == 33){  //osteoblast day 5
-			 	//console.log(affy);
-			 }
 
         //logMemoryUsage(lineNr);
 
